@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "MolView Storage Backup",
+  "version": "1.1",
+
+  "permissions":[
+    "activeTab",
+    "tabs",
+    "storage",
+    "https://app.molview.com/*"
+    ],
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

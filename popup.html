@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<style>
+
+body{
+    font-family: sans-serif;
+    width:250px;
+    padding:10px;
+}
+
+input,select,button{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:8px;
+}
+
+</style>
+</head>
+
+<body>
+
+<b>Export</b>
+
+<input id="name" placeholder="Backup name"/>
+
+<button id="export">
+Save backup
+</button>
+
+<hr>
+
+<b>Import</b>
+
+<select id="backups">
+</select>
+
+<button id="import">
+Restore backup
+</button>
+
+<button id="delete">
+Delete backup
+</button>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
